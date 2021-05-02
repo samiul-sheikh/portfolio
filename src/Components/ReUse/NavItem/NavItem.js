@@ -16,7 +16,6 @@ const NavItem = () => {
                     <Nav.Link className="me-4" to="projects" as={Link}>Project</Nav.Link>
                     <Nav.Link className="me-4" to="blog" as={Link}>Blog</Nav.Link>
                     <Nav.Link className="me-4" to="contact" as={Link}>Contact</Nav.Link>
-                    <Nav.Link eventKey={2} to="" as={Link}>Login</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

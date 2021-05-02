@@ -5,7 +5,7 @@ import Typed from 'react-typed';
 
 const HeaderMain = () => {
     return (
-        <main style={{ height: '550px', padding: '10px 10px' }} className="row d-flex align-items-center">
+        <main style={{ height: '550px' }} className="row d-flex align-items-center mx-5">
             <div className="col-md-4 offset-md-1">
                 <h1 style={{ color: 'white' }}>Hello! I am<br /> Samiul Hasan Sheikh</h1>
                 <Typed
@@ -15,9 +15,13 @@ const HeaderMain = () => {
                     backSpeed={60}
                     loop
                 />
-                <div className="mt-3">
-                    <button className="btn btn-primary mr-3">Hire Me</button>
-                    <button className="btn btn-primary">Resume</button>
+                <div className="my-4">
+                    <a href="https://www.linkedin.com/in/samiul-sheikh/" target="_blank">
+                        <button className="btn btn-primary mr-3">Hire Me</button>
+                    </a>
+                    <a href="https://drive.google.com/uc?export=download&id=1WRE1e9MW96h0NnFIXPL3BECmvu-Hub7C">
+                        <button className="btn btn-primary">Resume</button>
+                    </a>
                 </div>
             </div>
             <div className="col-md-6">
