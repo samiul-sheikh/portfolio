@@ -1,0 +1,14 @@
+.header-container {
+    height:700px;
+    position:relative;
+    background-image: url('../../Images/web-dev-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tsparticles-canvas-el{
+    position:absolute;
+    height: 700px;
+    width: 100%;
+}
