@@ -19,7 +19,7 @@ const HeaderMain = () => {
                     <a href="https://www.linkedin.com/in/samiul-sheikh/" target="_blank">
                         <button className="btn btn-primary mr-3">Hire Me</button>
                     </a>
-                    <a href="https://drive.google.com/uc?export=download&id=1WRE1e9MW96h0NnFIXPL3BECmvu-Hub7C">
+                    <a href="https://drive.google.com/uc?export=download&id=1kbtLJFMrZXd40p9J-4NYFU6Ndd7nle5z">
                         <button className="btn btn-primary">Resume</button>
                     </a>
                 </div>
