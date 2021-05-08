@@ -21,7 +21,7 @@ const blogData = [
 
 const Blog = () => {
     return (
-        <section className="container">
+        <section className="container mt-5">
             <div className="text-center">
                 <h3>My Blog</h3>
                 <h5>Here some of my articles about development</h5>

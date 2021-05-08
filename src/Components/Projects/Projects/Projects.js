@@ -4,7 +4,7 @@ import ProjectDetail from '../ProjectDetail/ProjectDetail';
 const Projects = () => {
     return (
         <div>
-            <div className="text-center">
+            <div className="text-center mt-5">
                 <h2>My Projects</h2>
                 <h5>Here some of my successful projects.</h5>
             </div>
