@@ -6,6 +6,7 @@ import NoMatch from "./Components/NoMatch/NoMatch";
 import Projects from "./Components/Projects/Projects/Projects";
 import Blog from "./Components/Blog/Blog";
 import ContactMe from "./Components/ContactMe/ContactMe";
+import About from "./Components/About/About";
 
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
             <Switch>
                 <Route exact path="/">
                     <Home />
+                </Route>
+                <Route path="/about">
+                    <About/>
                 </Route>
                 <Route path="/projects">
                     <Projects />

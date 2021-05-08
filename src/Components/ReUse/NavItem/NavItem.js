@@ -13,9 +13,10 @@ const NavItem = () => {
 
                 <Nav>
                     <Nav.Link className="me-4" to="/" as={Link}>Home</Nav.Link>
+                    <Nav.Link className="me-4" to="about" as={Link}>About Me</Nav.Link>
                     <Nav.Link className="me-4" to="projects" as={Link}>Project</Nav.Link>
                     <Nav.Link className="me-4" to="blog" as={Link}>Blog</Nav.Link>
-                    <Nav.Link className="me-4" to="contact" as={Link}>Contact</Nav.Link>
+                    <Nav.Link className="me-4" to="contact" as={Link}>Contact Me</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
