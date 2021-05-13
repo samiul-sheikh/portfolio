@@ -6,8 +6,8 @@ import Typed from 'react-typed';
 const HeaderMain = () => {
     return (
         <main style={{ height: '550px' }} className="row d-flex align-items-center mx-5">
-            <div className="col-md-4 offset-md-1">
-                <h1 style={{ color: 'white' }}>Hello! I am<br /> Samiul Hasan Sheikh</h1>
+            <div className="col-md-4 offset-md-1 mt-5">
+                <h1 className="mt-5" style={{ color: 'white' }}>Hello! I am<br /> Samiul Hasan Sheikh</h1>
                 <Typed
                     className="typed-text"
                     strings={["React Developer", "MERN Stack Developer", "JavaScript Developer"]}

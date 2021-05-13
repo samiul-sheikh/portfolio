@@ -1,14 +1,14 @@
 import React from 'react';
 import './Header.css';
 import Particles from 'react-particles-js';
-import NavItem from '../ReUse/NavItem/NavItem';
 import HeaderMain from '../HeaderMain/HeaderMain';
+import Navbar from '../ReUse/Navbar/Navbar';
 
 const Header = () => {
     return (
         <div className="header-container">
             <Particles />
-            <NavItem></NavItem>
+            <Navbar></Navbar>
             <HeaderMain></HeaderMain>
         </div>
     );
