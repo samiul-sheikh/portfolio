@@ -4,7 +4,7 @@ import { faFacebook, faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free
 
 const SocialMedia = () => {
     return (
-        <footer className="mt-5 text-center fixed-bottom" style={{ background: '#495057' }}>
+        <footer className="mt-5 text-center" style={{ background: '#495057' }}>
             <div className="fa-4x">
                 <a href="https://github.com/samiul-sheikh" target="_blank">
                     <button className="btn btn-primary mr-3"><FontAwesomeIcon icon={faGithub} /></button>
