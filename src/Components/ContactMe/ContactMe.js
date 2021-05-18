@@ -1,8 +1,10 @@
 import React from 'react';
+import Navbar from '../ReUse/Navbar/Navbar';
 
 const ContactMe = () => {
     return (
         <div className="container mt-5">
+            <Navbar></Navbar>
             <div className="text-center">
                 <h3>Contact Me</h3>
             </div>
