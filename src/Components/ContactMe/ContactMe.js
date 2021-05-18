@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar from '../ReUse/Navbar/Navbar';
+import SocialMedia from '../ReUse/SocialMedia/SocialMedia';
 
 const ContactMe = () => {
     return (
         <div className="container mt-5">
             <Navbar></Navbar>
-            <div className="text-center">
+            <div className="text-center"  style={{marginTop: '100px'}}>
                 <h3>Contact Me</h3>
             </div>
             <div className="col-md-9 mx-auto">
@@ -27,6 +28,7 @@ const ContactMe = () => {
                     </div>
                 </form>
             </div>
+            <SocialMedia></SocialMedia>
         </div>
     );
 };
