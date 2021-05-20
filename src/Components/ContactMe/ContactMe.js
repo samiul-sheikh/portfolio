@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../ReUse/Navbar/Navbar';
-import SocialMedia from '../ReUse/SocialMedia/SocialMedia';
 
 const ContactMe = () => {
     return (
@@ -28,7 +27,6 @@ const ContactMe = () => {
                     </div>
                 </form>
             </div>
-            <SocialMedia></SocialMedia>
         </div>
     );
 };

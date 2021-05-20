@@ -1,9 +1,12 @@
 import React from 'react';
+import Navbar from '../ReUse/Navbar/Navbar';
+import SocialMedia from '../ReUse/SocialMedia/SocialMedia';
 
 const About = () => {
     return (
         <div>
-            <div className="text-center">
+            <Navbar></Navbar>
+            <div className="text-center" style={{marginTop:'100px'}}>
                 <h1>Samiul Hasan Sheikh</h1>
                 <h4>MERN Stack Developer, React Developer, JavaScript Developer</h4>
             </div>
@@ -49,6 +52,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <SocialMedia></SocialMedia>
         </div>
     );
 };
