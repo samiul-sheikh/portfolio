@@ -8,7 +8,7 @@ const About = () => {
             <Navbar></Navbar>
             <div className="text-center" style={{marginTop:'100px'}}>
                 <h1>Samiul Hasan Sheikh</h1>
-                <h4>MERN Stack Developer, React Developer, JavaScript Developer</h4>
+                <h4>MERN Stack Developer, React Developer, Front-End Developer</h4>
                 <p>01784097404 | sheikh.samiul1971@gmail.com | Dhaka, Bangladesh</p>
             </div>
             <div className="container mt-5">
