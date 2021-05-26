@@ -26,7 +26,7 @@ const About = () => {
                         <h4>Database</h4>
                         <h6>mongo DB, mySQL</h6>
                         <h4>Knowledge</h4>
-                        <h6>Git, Redux, Reducer, JWT, SAAS, Next JS</h6>
+                        <h6>Git, Redux, Reducer, JWT, SAAS, Nex.JS</h6>
                         <h4>Deployment</h4>
                         <h6>GitHub, Netlify, Firebase, Heroku</h6>
                         <h4>Debugging</h4>
