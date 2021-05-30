@@ -34,7 +34,7 @@ const About = () => {
                         <h4>Operating System</h4>
                         <h6>Windows, Linux</h6>
                         <h4>Programming Tools</h4>
-                        <h6>VS Code, Sublime Text, Visual Studio</h6>
+                        <h6>VS Code, Sublime Text, Visual Studio, Notepad++</h6>
                     </div>
                     <div className="col-md-6">
                         <h2 className="text-primary">Education</h2>
