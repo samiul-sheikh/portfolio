@@ -39,7 +39,7 @@ const About = () => {
                     <div className="col-md-6">
                         <h2 className="text-primary">Education</h2>
                         <h4>Graduation</h4>
-                        <h5>American International University-Bangladesh (AIUB)</h5>
+                        <h5>American International University-Bangladesh AIUB</h5>
                         <h5>B.Sc in Software Engineering | 2016-2020</h5>
                         <h6>CGPA: 3.00 out of 4.00</h6>
                         <h4>HSC</h4>
