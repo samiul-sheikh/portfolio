@@ -1,22 +1,25 @@
 import React from 'react';
-import blog0 from '../../../src/Images/blog-0.png';
-import blog1 from '../../../src/Images/blog-1.png';
-import blog2 from '../../../src/Images/blog-2.png';
+import blog0 from '../../../src/Images/basic.jpeg';
+import blog1 from '../../../src/Images/important.png';
+import blog2 from '../../../src/Images/tips.png';
 import BlogDetail from '../BlogDetail/BlogDetail';
 import Navbar from '../ReUse/Navbar/Navbar';
 
 const blogData = [
     {
-        title: 'Become a Developer',
-        img: blog0
+        title: 'Ten Basic JavaScript Topics',
+        img: blog0,
+        view: 'https://samiul-sheikh.medium.com/ten-basic-javascript-topics-7a287a3b926d'
     },
     {
-        title: 'New Developer',
-        img: blog1
+        title: 'Important JS Topics',
+        img: blog1,
+        view: 'https://samiul-sheikh.medium.com/ten-important-javascript-topics-cf724326e70f'
     },
     {
-        title: 'MERN Developer',
-        img: blog2
+        title: 'JavaScript Tips and Tricks',
+        img: blog2,
+        view: 'https://samiul-sheikh.medium.com/useful-javascript-tips-and-tricks-e24beb540941'
     }
 ]
 
@@ -24,7 +27,7 @@ const Blog = () => {
     return (
         <section className="container mt-5">
             <Navbar></Navbar>
-            <div className="text-center" style={{marginTop: '100px'}}>
+            <div className="text-center" style={{ marginTop: '100px' }}>
                 <h3>My Blog</h3>
                 <h5>Here some of my articles about development</h5>
             </div>
