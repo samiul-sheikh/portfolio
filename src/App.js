@@ -7,6 +7,7 @@ import Projects from "./Components/Projects/Projects/Projects";
 import Blog from "./Components/Blog/Blog";
 import ContactMe from "./Components/ContactMe/ContactMe";
 import About from "./Components/About/About";
+import Portfolio from "./Components/Portfolio/Portfolio";
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
                 </Route>
                 <Route path="/contact">
                     <ContactMe/>
+                </Route>
+                <Route path="/portfolio">
+                    <Portfolio/>
                 </Route>
                 <Route path="*">
                     <NoMatch />
