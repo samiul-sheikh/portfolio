@@ -91,11 +91,11 @@ const ProjectDetail = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="text-center mt-5 mb-5">
-                <a href="http://localhost:3000/portfolio">
+            <div className="text-center mt-5 mb-5">
+                <a href="https://sheikh-samiul.web.app/portfolio">
                     <button type="button" className="btn btn-info mr-5">See More</button>
                 </a>
-            </div> */}
+            </div>
         </div>
     );
 };
