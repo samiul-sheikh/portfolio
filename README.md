@@ -1,3 +1,3 @@
 # Samiul Sheikh Portfolio
 
-my personal react portfolio
+my personal react portfolio site
