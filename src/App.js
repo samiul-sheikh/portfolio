@@ -8,6 +8,7 @@ import Blog from "./Components/Blog/Blog";
 import ContactMe from "./Components/ContactMe/ContactMe";
 import About from "./Components/About/About";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import SocialMedia from "./Components/ReUse/SocialMedia/SocialMedia";
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
                     <Home />
                 </Route>
                 <Route path="/about">
-                    <About/>
+                    <About />
                 </Route>
                 <Route path="/projects">
                     <Projects />
@@ -27,15 +28,16 @@ function App() {
                     <Blog />
                 </Route>
                 <Route path="/contact">
-                    <ContactMe/>
+                    <ContactMe />
                 </Route>
                 <Route path="/portfolio">
-                    <Portfolio/>
+                    <Portfolio />
                 </Route>
                 <Route path="*">
                     <NoMatch />
                 </Route>
             </Switch>
+            <SocialMedia></SocialMedia>
         </Router>
     );
 }

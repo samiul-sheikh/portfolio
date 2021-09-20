@@ -3,11 +3,43 @@ import './ProjectDetail.css';
 import sheikhHome from '../../../Images/sheikh-home.PNG';
 import fashionHome from '../../../Images/fashion-home.PNG';
 import sportsHome from '../../../Images/sports-home.PNG';
+import perfectClick from '../../../Images/perfectClick.PNG';
 
 const ProjectDetail = () => {
 
     return (
         <div className="mt-5">
+            <div className="mt-5">
+                <div className="row d-flex align-items-center individual-project">
+                    <div className="col-md-4">
+                        <img className="img-fluid" src={perfectClick} alt="" />
+                    </div>
+                    <div className="col-md-8">
+                        <h2>Perfect Click</h2>
+                        <h6>Technology used:</h6>
+                        <p>JavaScript(ES6), React JS, Node JS, Express JS, mongo DB, Bootstrap, Axios, React Hook, Context API, Firebase, Heroku, SweetAlert</p>
+                        <h6>Features:</h6>
+                        <ul>
+                            <li>Full Stack photography service providing based react application..</li>
+                            <li>Users see all the services in homepage. Every Service has two buttons one is view more another is buy now.</li>
+                            <li>Users can view service details or buy after login with valid Google account.</li>
+                            <li>By default order status is pending, users view their all taking services in dashboard order list.</li>
+                            <li>Users can give review from dashboard add review option which dynamically display in homepage.</li>
+                            <li>There are two different dashboards for users and admins with different kinds of features.</li>
+                            <li>An Admin can view all user orders; add new services also make new admins.</li>
+                            <li>Only valid admin can delete service, another admin also change the order status.</li>
+                        </ul>
+                        <div>
+                            <a href="https://perfect-click-bd.web.app/" target="_blank">
+                                <button type="button" className="btn btn-info mr-5">Live Site</button>
+                            </a>
+                            <a href="https://github.com/samiul-sheikh/perfect-click-client" target="_blank">
+                                <button type="button" className="btn btn-info">Github</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="mt-5">
                 <div className="row d-flex align-items-center individual-project">
                     <div className="col-md-4">

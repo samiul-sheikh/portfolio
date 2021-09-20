@@ -10,7 +10,7 @@ const HeaderMain = () => {
                 <h1 className="mt-5" style={{ color: 'white' }}>Hello! I am<br /> Samiul Hasan Sheikh</h1>
                 <Typed
                     className="typed-text"
-                    strings={["React Developer", "MERN Stack Developer", "JavaScript Developer"]}
+                    strings={["Full Stack Developer", "React Developer", "MERN Stack Developer", "JavaScript Developer"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop

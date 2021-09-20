@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../ReUse/Navbar/Navbar';
-import SocialMedia from '../ReUse/SocialMedia/SocialMedia';
 
 const About = () => {
     return (
@@ -53,7 +52,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <SocialMedia></SocialMedia>
         </div>
     );
 };
