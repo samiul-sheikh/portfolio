@@ -1,8 +1,6 @@
 # Samiul Sheikh Portfolio
 
-my personal react portfolio site done.
-# Perfect Click
-## Photography service based react application
+## my personal react portfolio site.
 
 ### `Technology Used`
 - JavaScript (ES6)
