@@ -16,4 +16,5 @@
 ---
 ### `Project Features`
 - professional looks UI design.
+- different kinds of section like - projects, blog, about me, contact with email features.
 - view my all projects with live site and code.
