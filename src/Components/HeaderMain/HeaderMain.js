@@ -10,7 +10,7 @@ const HeaderMain = () => {
                 <h1 className="mt-5" style={{ color: 'white' }}>Hello! I am<br /> Samiul Hasan Sheikh</h1>
                 <Typed
                     className="typed-text"
-                    strings={["Full Stack Developer", "React Developer", "MERN Stack Developer", "JavaScript Developer"]}
+                    strings={["Full Stack Developer", "React Developer", "MERN Stack Developer", "Software Engineer"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
@@ -19,7 +19,7 @@ const HeaderMain = () => {
                     <a href="https://www.linkedin.com/in/samiul-sheikh/" target="_blank">
                         <button className="btn btn-primary mr-3">Hire Me</button>
                     </a>
-                    <a href="https://drive.google.com/uc?export=download&id=1Syhh93k1DfFq1nX73MS2H4uoH7WyU5gq">
+                    <a href="https://drive.google.com/uc?export=download&id=1jEqpRNqmeXlYKsujF3YY1xG9SbtnC7aQ">
                         <button className="btn btn-primary">Resume</button>
                     </a>
                 </div>
