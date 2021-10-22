@@ -4,6 +4,7 @@ import sheikhHome from '../../../Images/sheikh-home.PNG';
 import fashionHome from '../../../Images/fashion-home.PNG';
 import sportsHome from '../../../Images/sports-home.PNG';
 import perfectClick from '../../../Images/perfectClick.PNG';
+import news24 from '../../../Images/news24.png';
 
 const ProjectDetail = () => {
 
@@ -43,26 +44,26 @@ const ProjectDetail = () => {
             <div className="mt-5">
                 <div className="row d-flex align-items-center individual-project">
                     <div className="col-md-4">
-                        <img className="img-fluid" src={sheikhHome} alt="" />
+                        <img className="img-fluid" src={news24} alt="" />
                     </div>
                     <div className="col-md-8">
-                        <h2>Sheikh Technology</h2>
+                        <h2>News24</h2>
                         <h6>Technology used:</h6>
-                        <p>React JS, Node JS, Express JS, mongo DB, Bootstrap, Firebase Authentication, React Router</p>
+                        <p>React JS, Node JS, Express JS, mongo DB, Bootstrap, Firebase, Heroku</p>
                         <h6>Features:</h6>
                         <ul>
-                            <li>Full Stack technology service providing based react application.</li>
-                            <li>Users can take services after login with valid google account.</li>
-                            <li>Users view their all taking services in dashboard order list.</li>
-                            <li>Users can give review from dashboard add review option which dynamically display in homepage.</li>
-                            <li>Same Dashboard of different kinds of features for admin and users.</li>
-                            <li> Only valid admin can make another admin, add /delete service, all users order services.</li>
+                            <li>News Portal react application.</li>
+                            <li>Users can view all types of news articles in homepage.</li>
+                            <li>Users can register/login with Google and custom authentication to view the full article.</li>
+                            <li> Users can views different types of news by category.</li>
+                            <li> Route will be changed dynamically for different kinds of news.</li>
+                            <li>An Admin can add new news, top news, new admin and manage news.</li>
                         </ul>
                         <div>
-                            <a href="https://sheikh-technologies.web.app/" target="_blank">
+                            <a href="https://newsbd-24.web.app/" target="_blank">
                                 <button type="button" className="btn btn-info mr-5">Live Site</button>
                             </a>
-                            <a href="https://github.com/samiul-sheikh/sheikh-technology-client" target="_blank">
+                            <a href="https://github.com/samiul-sheikh/news24-client" target="_blank">
                                 <button type="button" className="btn btn-info">Github</button>
                             </a>
                         </div>
@@ -91,6 +92,35 @@ const ProjectDetail = () => {
                                 <button type="button" className="btn btn-info mr-5">Live Site</button>
                             </a>
                             <a href="https://github.com/samiul-sheikh/fashion-house-client" target="_blank">
+                                <button type="button" className="btn btn-info">Github</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="mt-5">
+                <div className="row d-flex align-items-center individual-project">
+                    <div className="col-md-4">
+                        <img className="img-fluid" src={sheikhHome} alt="" />
+                    </div>
+                    <div className="col-md-8">
+                        <h2>Sheikh Technology</h2>
+                        <h6>Technology used:</h6>
+                        <p>React JS, Node JS, Express JS, mongo DB, Bootstrap, Firebase Authentication, React Router</p>
+                        <h6>Features:</h6>
+                        <ul>
+                            <li>Full Stack technology service providing based react application.</li>
+                            <li>Users can take services after login with valid google account.</li>
+                            <li>Users view their all taking services in dashboard order list.</li>
+                            <li>Users can give review from dashboard add review option which dynamically display in homepage.</li>
+                            <li>Same Dashboard of different kinds of features for admin and users.</li>
+                            <li> Only valid admin can make another admin, add /delete service, all users order services.</li>
+                        </ul>
+                        <div>
+                            <a href="https://sheikh-technologies.web.app/" target="_blank">
+                                <button type="button" className="btn btn-info mr-5">Live Site</button>
+                            </a>
+                            <a href="https://github.com/samiul-sheikh/sheikh-technology-client" target="_blank">
                                 <button type="button" className="btn btn-info">Github</button>
                             </a>
                         </div>
