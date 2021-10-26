@@ -25,7 +25,7 @@ const About = () => {
                         <h4>Database</h4>
                         <h6>mongo DB, mySQL</h6>
                         <h4>Knowledge</h4>
-                        <h6>Git, Redux, Reducer, JWT, SAAS, Nex.JS</h6>
+                        <h6>Git, Redux, NPM, JWT, React Hooks, Context API, SAAS, Nex.JS, Data Structure, Algorithm</h6>
                         <h4>Deployment</h4>
                         <h6>GitHub, Netlify, Firebase, Heroku</h6>
                         <h4>Debugging</h4>
@@ -44,7 +44,7 @@ const About = () => {
                         <h4>HSC</h4>
                         <h5>Rangpur Government College, Rangpur</h5>
                         <h5>Higher Secondary Certificate | Science | 2014 </h5>
-                        <h6>GPA: 4.00 out of 5.00</h6>
+                        <h6>GPA: 4.30 out of 5.00</h6>
                         <h4>SSC</h4>
                         <h5>Rabaitary S.B.M.L High School, Kurigram</h5>
                         <h5>Secondary School Certificate | Science | 2011 </h5>

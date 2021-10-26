@@ -21,4 +21,5 @@
 - View my all projects with live site and source code.
 - Learning new technologies day by day.
 ### `Project UI`
-<img src="./src/images/project_ui/homepage.png">
+<img src="./src/Images/project_ui/homepage.png">
+<img src="./src/Images/project_ui/projects.png">
