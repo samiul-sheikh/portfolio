@@ -1,17 +1,26 @@
 import React from 'react';
 import Navbar from '../ReUse/Navbar/Navbar';
+import graduate from '../../Images/graduate.JPG';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faMapMarkerAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="text-center" style={{marginTop:'100px'}}>
-                <h1>Samiul Hasan Sheikh</h1>
-                <h4>MERN Stack Developer, React Developer, Front-End Developer</h4>
-                <p>01784097404 | sheikh.samiul1971@gmail.com | Dhaka, Bangladesh</p>
-            </div>
             <div className="container mt-5">
-                <div className="row">
+                <div className="row d-flex" style={{ marginTop: '100px' }}>
+                    <div className="col-md-8 text-center" style={{ marginTop: '100px' }}>
+                        <h1>Samiul Hasan Sheikh</h1>
+                        <h4>MERN Stack Developer, React Developer, Front-End Developer</h4>
+                        <p> <FontAwesomeIcon icon={faPhone} /> 01784097404 | <FontAwesomeIcon icon={faEnvelope} /> sheikh.samiul1971@gmail.com | <FontAwesomeIcon icon={faMapMarkerAlt} /> Dhaka, Bangladesh</p>
+                    </div>
+                    <div className="col-md-4">
+                        <img src={graduate} alt="" className="img-fluid" />
+                    </div>
+                </div>
+                <div className="row mt-5">
                     <div className="col-md-6">
                         <h2 className="text-primary">Technical Skills</h2>
                         <h4>Programming Langues</h4>
