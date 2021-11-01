@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../ReUse/Navbar/Navbar';
 import slider1 from '../../../src/Images/slider1.PNG';
 import dream1 from '../../../src/Images/dream1.PNG';
+import sheikhHome from '../../Images/sheikh-home.PNG';
 import shutter from '../../../src/Images/shutters.PNG';
 import hungry1 from '../../../src/Images/hungry1.png';
 import bpl1 from '../../../src/Images/bpl1.PNG';
@@ -14,18 +15,6 @@ import PortfolioDetails from '../PortfolioDetails/PortfolioDetails';
 
 const portfolioData = [
     {
-        title: 'Doctors Portal',
-        img: doctor1,
-        technology: 'HTML, CSS, Bootstrap, React JS, React Hook, React Router, Firebase Authentication, Font-Awesome',
-        feature1: 'Full Stack doctor service providing based react application.',
-        feature2: 'Users can take appointment after login with valid google account.',
-        feature3: 'Users view their all taking appointment in dashboard appointment calender.',
-        feature4: 'Same Dashboard of different kinds of features for admin and users.',
-        feature5: 'an admin can make another admin.',
-        live: 'https://doctor-portal-bd.web.app/',
-        github: 'https://github.com/samiul-sheikh/doctors-portal-client'
-    },
-    {
         title: 'Hotel Management System',
         img: hotel1,
         technology: 'HTML, React JS, Material UI, JWT Token, React Router, React Hook, Firebase Authentication ',
@@ -36,30 +25,6 @@ const portfolioData = [
         feature5: 'user can choose their favorite from different kinds of rooms.',
         live: 'https://hotel-management-burj.web.app/',
         github: 'https://github.com/samiul-sheikh/hotel-management-system'
-    },
-    {
-        title: 'Volunteer Network',
-        img: volunteer1,
-        technology: 'HTML, CSS, React JS, React Hook, React Router',
-        feature1: 'full Stack social work based react application.',
-        feature2: 'different kinds of events are display from server.',
-        feature3: 'user can add an event with a title and image from navbar add event option.',
-        feature4: 'user can delete an event.',
-        feature5: 'more features are upcoming....',
-        live: 'https://volunteer-network-team.netlify.app/',
-        github: 'https://github.com/samiul-sheikh/volunteer-network'
-    },
-    {
-        title: 'Dream Rider',
-        img: dream1,
-        technology: 'HTML, CSS, React JS, React Bootstrap, React Router, Font-Awesome',
-        feature1: 'professional looks UI design.',
-        feature2: 'There are four types of ride category (bike, car, bus, train)',
-        feature3: 'In this project no using api, fake data prepared by me in json file.',
-        feature4: 'dynamically price update with every ride.',
-        feature5: 'In this project also a map view option.',
-        live: 'https://dream-rider-info.web.app/',
-        github: 'https://github.com/samiul-sheikh/dream-rider'
     },
     {
         title: 'Team Selection - BPL',
@@ -84,6 +49,54 @@ const portfolioData = [
         feature5: 'display a colorful spinner before loading data and implement keyboard enter button.',
         live: 'https://samiul-sheikh.github.io/image-slider/',
         github: 'https://github.com/samiul-sheikh/image-slider'
+    },
+    {
+        title: 'Sheikh Technology',
+        img: sheikhHome,
+        technology: 'React JS, Node JS, Express JS, mongo DB, Bootstrap, Firebase Authentication, React Router',
+        feature1: 'Users can take services after login with valid google account.',
+        feature2: 'Users view their all taking services in dashboard order list.',
+        feature3: 'Users can give review from dashboard add review option which dynamically display in homepage.',
+        feature4: 'Same Dashboard of different kinds of features for admin and users.',
+        feature5: 'Only valid admin can make another admin, add /delete service, all users order services.',
+        live: 'https://sheikh-technologies.web.app/',
+        github: 'https://github.com/samiul-sheikh/sheikh-technology-client'
+    },
+    {
+        title: 'Doctors Portal',
+        img: doctor1,
+        technology: 'HTML, CSS, Bootstrap, React JS, React Hook, React Router, Firebase Authentication, Font-Awesome',
+        feature1: 'Full Stack doctor service providing based react application.',
+        feature2: 'Users can take appointment after login with valid google account.',
+        feature3: 'Users view their all taking appointment in dashboard appointment calender.',
+        feature4: 'Same Dashboard of different kinds of features for admin and users.',
+        feature5: 'an admin can make another admin.',
+        live: 'https://doctor-portal-bd.web.app/',
+        github: 'https://github.com/samiul-sheikh/doctors-portal-client'
+    },
+    {
+        title: 'Volunteer Network',
+        img: volunteer1,
+        technology: 'HTML, CSS, React JS, React Hook, React Router',
+        feature1: 'full Stack social work based react application.',
+        feature2: 'different kinds of events are display from server.',
+        feature3: 'user can add an event with a title and image from navbar add event option.',
+        feature4: 'user can delete an event.',
+        feature5: 'more features are upcoming....',
+        live: 'https://volunteer-network-team.netlify.app/',
+        github: 'https://github.com/samiul-sheikh/volunteer-network'
+    },
+    {
+        title: 'Dream Rider',
+        img: dream1,
+        technology: 'HTML, CSS, React JS, React Bootstrap, React Router, Font-Awesome',
+        feature1: 'professional looks UI design.',
+        feature2: 'There are four types of ride category (bike, car, bus, train)',
+        feature3: 'In this project no using api, fake data prepared by me in json file.',
+        feature4: 'dynamically price update with every ride.',
+        feature5: 'In this project also a map view option.',
+        live: 'https://dream-rider-info.web.app/',
+        github: 'https://github.com/samiul-sheikh/dream-rider'
     },
     {
         title: "Shutter's Moment",

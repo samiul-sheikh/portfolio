@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProjectDetail.css';
-import sheikhHome from '../../../Images/sheikh-home.PNG';
+import userManagement from '../../../Images/userManagement.png';
 import fashionHome from '../../../Images/fashion-home.PNG';
 import sportsHome from '../../../Images/sports-home.PNG';
 import perfectClick from '../../../Images/perfectClick.PNG';
@@ -101,26 +101,26 @@ const ProjectDetail = () => {
             <div className="mt-5">
                 <div className="row d-flex align-items-center individual-project">
                     <div className="col-md-4">
-                        <img className="img-fluid" src={sheikhHome} alt="" />
+                        <img className="img-fluid" src={userManagement} alt="" />
                     </div>
                     <div className="col-md-8">
-                        <h2>Sheikh Technology</h2>
+                        <h2>User Management System</h2>
                         <h6>Technology used:</h6>
-                        <p>React JS, Node JS, Express JS, mongo DB, Bootstrap, Firebase Authentication, React Router</p>
+                        <p>React JS, Node JS, Express JS, mongo DB, Bootstrap, Firebase Authentication, React Router, React hooks, Axios</p>
                         <h6>Features:</h6>
                         <ul>
-                            <li>Full Stack technology service providing based react application.</li>
-                            <li>Users can take services after login with valid google account.</li>
-                            <li>Users view their all taking services in dashboard order list.</li>
-                            <li>Users can give review from dashboard add review option which dynamically display in homepage.</li>
-                            <li>Same Dashboard of different kinds of features for admin and users.</li>
-                            <li> Only valid admin can make another admin, add /delete service, all users order services.</li>
+                            <li>User management react application.</li>
+                            <li>Users can view all persons information in homepage</li>
+                            <li>Implement login system using Firebase</li>
+                            <li>Users can search specific person by name or phone number</li>
+                            <li>Paginated specific persons information from database</li>
+                            <li>An User can add new person after successfully logged in</li>
                         </ul>
                         <div>
-                            <a href="https://sheikh-technologies.web.app/" target="_blank">
+                            <a href="https://user-management-bd.web.app/" target="_blank">
                                 <button type="button" className="btn btn-info mr-5">Live Site</button>
                             </a>
-                            <a href="https://github.com/samiul-sheikh/sheikh-technology-client" target="_blank">
+                            <a href="https://github.com/samiul-sheikh/user-management" target="_blank">
                                 <button type="button" className="btn btn-info">Github</button>
                             </a>
                         </div>
