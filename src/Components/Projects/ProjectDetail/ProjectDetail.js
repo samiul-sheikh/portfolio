@@ -110,11 +110,11 @@ const ProjectDetail = () => {
                         <h6>Features:</h6>
                         <ul>
                             <li>User management react application.</li>
-                            <li>Users can view all persons information in homepage</li>
-                            <li>Implement login system using Firebase</li>
-                            <li>Users can search specific person by name or phone number</li>
-                            <li>Paginated specific persons information from database</li>
-                            <li>An User can add new person after successfully logged in</li>
+                            <li>Using Private Route and implement firebase authentication system</li>
+                            <li>Users can view all people’s information in homepage</li>
+                            <li>Using Pagination to display all people’s information from database</li>
+                            <li>Users can search specific people by name or phone number</li>
+                            <li>An User can add new people after successfully logged in.</li>
                         </ul>
                         <div>
                             <a href="https://user-management-bd.web.app/" target="_blank">
