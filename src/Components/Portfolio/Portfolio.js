@@ -170,6 +170,11 @@ const Portfolio = () => {
             </div>
             <div className="row">
                 {
+                    portfolioData.length === 0 && <div class="spinner-border text-primary mx-auto my-auto" role="status">
+                        <span className="visually-hidden">Loading...</span>
+                    </div>
+                }
+                {
                     portfolioData.map(portfolio => <PortfolioDetails portfolio={portfolio}></PortfolioDetails>)
                 }
             </div>
