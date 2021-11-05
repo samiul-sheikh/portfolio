@@ -24,7 +24,7 @@ const About = () => {
                     <div className="col-md-6">
                         <h2 className="text-primary">Technical Skills</h2>
                         <h4>Programming Langues</h4>
-                        <h6>JavaScript, PHP</h6>
+                        <h6>JavaScript (ES6)</h6>
                         <h4>Front-End Development</h4>
                         <h6>HTML, CSS, REST API</h6>
                         <h4>Back-End Development</h4>
@@ -34,7 +34,7 @@ const About = () => {
                         <h4>Database</h4>
                         <h6>mongo DB, mySQL</h6>
                         <h4>Knowledge</h4>
-                        <h6>Git, Redux, NPM, JWT, React Hooks, Context API, SAAS, Nex.JS, Data Structure, Algorithm</h6>
+                        <h6>Git, Redux, NPM, JWT, React Hooks, Context API, Nex.JS, Data Structure, Algorithm</h6>
                         <h4>Deployment</h4>
                         <h6>GitHub, Netlify, Firebase, Heroku</h6>
                         <h4>Debugging</h4>
