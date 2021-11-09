@@ -19,7 +19,7 @@
 - Professional looks UI design.
 - Different kinds of section like - projects, blog, about me, contact with email features.
 - View my all projects with live site and source code.
-- Learning new technologies day by day.
+- Learning new technologies day by day & increase my skills as a professional Software Engineer.
 ### `Project UI`
 <img src="./src/Images/project_ui/homepage.png">
 <img src="./src/Images/project_ui/projects.png">
