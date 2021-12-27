@@ -146,18 +146,20 @@ const portfolioData = [
         live: 'https://samiul-sheikh.github.io/panda-e-commerce-bootstrap/',
         github: 'https://github.com/samiul-sheikh/panda-e-commerce-bootstrap'
     },
-    // {
-    //     title: '',
-    //     img: dream1,
-    //     technology: 'HTML, CSS, JavaScript, React JS, React Bootstrap, React Router, Rest API',
-    //     feature1: '',
-    //     feature2: '',
-    //     feature3: '',
-    //     feature4: '',
-    //     feature5: '',
-    //     live: '',
-    //     github: ''
-    // },
+    /*
+    {
+        title: '',
+        img: dream1,
+        technology: 'HTML, CSS, JavaScript, React JS, React Bootstrap, React Router, Rest API',
+        feature1: '',
+        feature2: '',
+        feature3: '',
+        feature4: '',
+        feature5: '',
+        live: '',
+        github: ''
+    },
+    */
 ]
 
 const Portfolio = () => {
