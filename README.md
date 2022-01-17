@@ -22,7 +22,6 @@
 - Learning new technologies day by day & increase my skills as a professional Software Engineer.
 - Target in 2022 learning TypeScript & NextJS also solve 100+ problem in HackerRank.
 
-
 ### `Project UI`
 <img src="./src/Images/project_ui/homepage.png">
 <img src="./src/Images/project_ui/projects.png">
