@@ -45,7 +45,13 @@ const About = () => {
                         <h6>VS Code, Sublime Text, Visual Studio, Notepad++</h6>
                     </div>
                     <div className="col-md-6">
-                        <h2 className="text-primary">Education</h2>
+
+                    <h2 className="text-primary">Professional Experience</h2>
+                        <h4> <a href="https://bindulogic.com/">BinduLogic</a></h4>
+                        <h5>Software Engineer</h5>
+                        <h5>November 2021-Present</h5>
+
+                        <h2 className="text-primary mt-5">Education</h2>
                         <h4>Graduation</h4>
                         <h5>American International University-Bangladesh AIUB</h5>
                         <h5>B.Sc in Software Engineering | 2016-2020</h5>
