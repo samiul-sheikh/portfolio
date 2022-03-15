@@ -26,7 +26,7 @@ const About = () => {
                         <h4>Programming Langues</h4>
                         <h6>JavaScript (ES6)</h6>
                         <h4>Front-End Development</h4>
-                        <h6>HTML, CSS, REST API</h6>
+                        <h6>HTML, CSS, Redux, REST API</h6>
                         <h4>Back-End Development</h4>
                         <h6>Node JS, Express JS</h6>
                         <h4>Framework</h4>
