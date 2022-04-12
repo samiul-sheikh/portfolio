@@ -1,6 +1,6 @@
 # Samiul Sheikh Portfolio
 
-## my personal react portfolio site.
+## my personal react portfolio.
 
 ### `Technology Used`
 - JavaScript (ES6)
